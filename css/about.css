@@ -1,0 +1,22 @@
+#aboutmain
+{
+    display: flex;
+    flex-direction: row;
+}
+#aboutmain > img
+{
+    padding: 0;
+    border: 1px solid aliceblue;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .faceimg
+    {
+        width: 40vw;;
+    }
+    #aboutmain
+    {
+        flex-direction: column;
+    }
+}
