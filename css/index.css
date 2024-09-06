@@ -1,0 +1,24 @@
+#facehome{
+    border-radius: 500px;
+    width: 40rem;
+}
+
+@media screen and (max-width: 980px) 
+{
+    main{
+        height: 75vh;
+    }
+    #facehome{
+        width: 20rem;
+       }
+}
+
+/* @media screen and (max-width: 980px) 
+{
+    main{
+        height: 85vh;
+    }
+    #facehome{
+        width: 40rem;
+       }
+} */

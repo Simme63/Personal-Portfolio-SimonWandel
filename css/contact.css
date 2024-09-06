@@ -1,0 +1,25 @@
+img{
+    width: 50rem;
+    margin: auto;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1200px) 
+{
+   img{
+    width: 30rem;
+   }
+   main{
+    height: 80vh;
+   }
+}
+
+@media screen and (max-width: 800px) 
+{
+   img{
+    width: 20rem;
+   }
+   main{
+    height: 70vh;
+   }
+}

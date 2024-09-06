@@ -1,22 +1,62 @@
+nav{
+    padding-bottom: 5rem;
+}
+
 #aboutmain
 {
     display: flex;
     flex-direction: row;
+    margin: auto;
+    width: 80%;
 }
 #aboutmain > img
 {
     padding: 0;
-    border: 1px solid aliceblue;
+    border: 1px solid var(--primary-color-faded);
 }
 
-@media screen and (max-width: 600px) 
+.abouttext{
+    align-content: center;
+    padding-left: 3rem;
+}
+
+.intro{
+    background-color: var(--primary-color-faded);
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) 
 {
     .faceimg
     {
-        width: 40vw;;
+        width: 60vw;
+        margin-top: 1rem;
+
     }
     #aboutmain
     {
         flex-direction: column;
     }
+    .intro
+    {
+        padding: 0;
+    }
+    .abouttext{
+        padding-left: 0;
+    }
 }
+
+/* @media screen and (max-width: 980px) 
+{
+    .faceimg
+    {
+        width: 60vw;
+        margin-top: 1rem;
+
+    }
+    #aboutmain
+    {
+        flex-direction: column;
+    }
+} */

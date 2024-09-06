@@ -1,5 +1,7 @@
 :root{
     --primary-color: rgb(0,128,128);
+    --primary-color-middle: rgba(0,128,128,0.6);
+    --primary-color-faded: rgba(0,128,128, 0.2);
     --background-color:rgb(26, 26, 26);
 }
 
@@ -13,14 +15,13 @@
     transition: all 0.4s ease-in-out;
 }
 
-p{
-    color: white;
-}
-
 body{
     background-color: var(--background-color);
 }
 
+p, h2{
+    color: white;
+}
 
 nav{
     display: flex;
@@ -76,19 +77,15 @@ section > *{
 }
 
 .faceimg{
-    width: 30rem;
+    width: 20rem;
     height: auto;
     margin: auto;
     border-radius: 20px;
 }
 
-#facehome{
-    border-radius: 500px;
-}
-
 footer{
     display: flex;
-    background-color: teal;
+    background-color: var(--primary-color-middle);
     color: white;
     flex-direction: column;
     align-items: center;
@@ -102,4 +99,3 @@ footer > *{
 .currentlink {
     color: var(--primary-color);
 }
-
